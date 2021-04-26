@@ -1,5 +1,9 @@
 # jest-if 🃏🤔
 
+[![npm](https://img.shields.io/npm/v/jest-if)](https://www.npmjs.com/package/jest-if)
+[![build](https://img.shields.io/github/workflow/status/tough-griff/jest-if/Test)](https://github.com/tough-griff/jest-if/actions/workflows/test.yml)
+[![codecov](https://img.shields.io/codecov/c/github/tough-griff/jest-if)](https://codecov.io/gh/tough-griff/jest-if)
+
 Conditional test blocks for [`jest`](https://jestjs.io)
 
 ## Installation
