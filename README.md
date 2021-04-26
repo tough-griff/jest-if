@@ -22,7 +22,7 @@ Add jest-if to `setupFilesAfterEnv` in your [configuration](https://jestjs.io/do
 
 ```js
 module.exports = {
-  setupFilesAfterEnv: ["jest-if"],
+  setupFilesAfterEnv: ['jest-if'],
 };
 ```
 
@@ -41,12 +41,12 @@ Now you can conditionally write tests to be skipped unless the condition returns
 true:
 
 ```js
-describe.if(os.platform() !== "windows")(
-  "Unix specific tests can go here",
+describe.if(os.platform() !== 'windows')(
+  'Unix specific tests can go here',
   () => {
-    it("works as expected", () => {
-      expect(path.resolve("/")).toEqual("/");
+    it('works as expected', () => {
+      expect(path.resolve('/')).toEqual('/');
     });
-  }
+  },
 );
 ```

@@ -53,5 +53,9 @@
     "*.ts": "prettier --write",
     "*.md": "prettier --write",
     "*.y{,a}ml": "prettier --write"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
   }
 }
