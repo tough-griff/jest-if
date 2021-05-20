@@ -17,7 +17,6 @@ declare module jest {
      *   }
      * );
      */
-
     if: (condition: boolean) => jest.Describe;
   }
 
